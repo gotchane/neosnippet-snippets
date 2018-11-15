@@ -203,3 +203,7 @@ abbr        import defaultMember, { member, ... } from "module-name";
 options     head
   import ${1:defaultMember}, { ${2:MEMBERS} } from "${0:TARGET}";
 
+snippet i18n-t
+alias t
+options head
+  {t('${0:TARGET})}
